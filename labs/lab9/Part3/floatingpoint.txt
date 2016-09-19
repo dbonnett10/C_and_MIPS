@@ -1,0 +1,63 @@
+Dan Bonnett
+Lab 9 Part 3 (Text part)
+Honor code: This work is my own unless otherwise cited.
+Floating Point Problems
+
+
+Problem One: Convert 79. 0 into floating point
+
+Step one: 79 in binary is 01001111
+
+Step two: There is no fraction in 79.0
+
+        .0 in binary is .000000...
+
+Step three: 1001111 = 1.001111 x 2^6
+
+Step four: exponent = 6 + 127 = 133 = 10000101
+
+Final floating point representation: 0 10000101 0011110000000000...
+
+**********************************************************************************
+
+
+Problem Two: Convert -0.109375 (-7/64) into floating point
+
+Step one: -0 in binary is 00000000
+
+Step two:   2 x .109375 = 0.218375
+            2 x .218375 = 0.4375
+            2 x .4375   = 0.875
+            2 x .875    = 1.75
+            2 x .75     = 1.5
+            2 x .5      = 1.0
+
+        .109375 in binary is .000111
+
+Step three: -0.000111 = -1.11 x 2^-4
+
+Step four: 127 + -4 = 123 = 1111011
+
+Final floating point representation 1 01111011 1100000000...
+
+**********************************************************************************
+
+Problem three: Convert 19.0625 into floating point
+
+Step one: 19 in binary is 10011
+
+Step two:   2 x .0625   = 0.125
+            2 x .125    = 0.25
+            2 x .25     = 0.5
+            2 x .5      = 1.0
+
+        .0625 in binary is 0.0001
+
+Step three: 10011.0001 = 1.00110001 x 2^4
+
+Step four: 127 + 4 = 131 = 1000011
+
+Final floating point representation 1 1000011 00110001
+
+
+

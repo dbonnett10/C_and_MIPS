@@ -1,0 +1,90 @@
+//*************************************
+//Dan Bonnett
+//lab 4 part 4
+//gives the result of our logical operations in hexadecimal
+//gives the result of the xor, srl, and sra operations in binary
+//*************************************
+
+Integers Picked:
+40
+-50
+
+
+Integers picked in Hexadecimal:
+28
+FFCE
+
+
+Logical And:
+Decimal = 8
+Hexadecimal = 8
+
+
+Logical Or:
+Decimal = -18
+Hexadecimal = FFEE
+
+
+Logical Xor:
+Decimal = -26
+Hexadecimal = FFE6
+
+
+Logical left shift of first integer:
+Decimal = 160
+Hexadecimal = A0
+
+
+Logical left shift of second integer:
+Decimal = -200
+Hexadecimal = FF38
+
+
+Logical right shift of first integer:
+Decimal = 10
+Hexadecimal = A
+
+
+Logical right shift of the second integer:
+Decimal = 1073741811
+Hexadecimal = 3FFFFFF3
+
+
+Arithmetic right shift of first integer:
+Decimal = 10
+Hexadecimal = A
+
+
+Arithmetic right shift of second integer:
+Decimal = -13
+Hexadecimal = FFF3
+
+
+
+
+
+Xor binary result:
+Decimal = -26
+Binary (8 bit two's complement) = 11100110
+
+
+srl binary result of the first integer:
+Decimal = 10
+Binary = 1010
+
+
+sr1 binary result of the second integer:
+Decimal = 1073741811
+Binary = 0111111111111111111111111110011
+
+
+sra binary result for first integer:
+Decimal = 10
+Binary = 1010
+
+
+sra binary result for the second integer:
+Decimal = -13
+Binary (5 bit two's complement) = 10011
+
+
